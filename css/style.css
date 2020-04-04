@@ -1,0 +1,14 @@
+.typop-cart {
+  display: none;
+  position: fixed;
+  min-height: 100vh;
+  width: 250px;
+  background: brown;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+}
+
+.typop-cart.show {
+  display: block;
+}
